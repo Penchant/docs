@@ -63,11 +63,43 @@ If you are using Linux as your development host OS, you will also want to includ
 
 
 # Simulink Model Creation
+## Simulink Model and Infrastructure Overview
+### Model Organization
+### Development Infrastructure
+#### Path Setup
+#### Init Scripts
+
+## Model Creation
+1. copy reference project (e.g. simple gain)
+2. setup init scripts (registers, model parameters, etc.)
+3. replace data processing blocks with your algorithm
+4. simulate simulate simulate verify verify verify
 
 # Code Generation
+1. Hit the code generation button!
+2. ????
+3. profit
 
 # Quartus Project Creation
+1. copy passthrough project
+2. add model IP in Platform Designer
+    - multiple IPs can be chained together (see multi-effects processor example project)
+3. generate RBF
+    - this should definitely be automated :)
+
+# Device Tree Creation
+1. Generate dts with sopc2dts
+2. remove PLL clock lines from dts
+3. add codec and headphone amplifier nodes if not already included
+4. compile into dtb
 
 # Deploying the Project
+## SD Card Booting
+
+## Network Booting
 
 # Using the Project
+## Loading Device Drivers
+this should be automated too :)
+
+## Using the GUI
