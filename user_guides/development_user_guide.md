@@ -1,10 +1,14 @@
 # Overview
+The Simulink-based development process created and employed by [FPGA Open Speech Tools](https://github.com/fpga-open-speech-tools) is designed to increase the accessibility of developing audio signal processing applications on SoC FPGAs. Developers only need knowledge of MATLAB/Simulink. Some software and hardware experience is helpful, but not strictly required. 
+
+Developers create their algorithms in Simulink, then the majority of the code required to implement and control the algorithm on an SoC FPGA is automatically generated. This document details all of the steps needed to develop and deploy an audio processing algorithm on an SoC FPGA. 
 
 # Prerequisites
 ## Operating Systems
 Most of the development process can be done on either Windows or Linux, though there are certain processes that can be only be done on Linux. If Windows is your choice of operating system, you will have to set up a Linux Virtual machine for the Linux-only steps. A preconfigured Ubuntu Linux Virtual Box image is available for [download](https://www.dropbox.com/sh/jsr9qw5ecr3webo/AAAuiHvovjQSC5wr1897HN1Ea?dl=0). Refer to `virtual_box_setup.md` for more information on setting up the virtual machine development environment. 
 
 ## Tools
+The following tools are required for development:
 - Matlab
     - Simulink
     - HDL Coder 
@@ -52,6 +56,7 @@ All of the repositories above should live in the same root folder, i.e.
 ├── simulink_library
 ├── simulink_models
 ```
+If you set your folders up a different way, **things will _break_**. If you choose to use a different directory structure, you will have to change include paths in Matlab and Quartus to accommodate your directory structure.
 
 
 If you are using Linux as your development host OS, you will also want to include the [linux-socfgpa](https://github.com/fpga-open-speech-tools/linux-socfpga) kernel repository in the same directory as above; for Windows hosts, this repository will need to live in your Linux virtual machine. This repository is needed to compile device drivers for the embedded Linux running on the SoC FPGA. On a Linux host, device drivers will be compiled automatically for you during Simulink code generation. For Windows hosts, device drivers have to be manually compiled in your Linux virtual machine
