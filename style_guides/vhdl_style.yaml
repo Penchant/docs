@@ -1,0 +1,1840 @@
+---
+rule:
+  global:
+    indentSize: 2
+  after_001:
+    disable: true
+    fixable: true
+    magnitude: 1
+    phase: 1
+    units: ns
+  after_002:
+    blank_line_ends_group: true
+    comment_line_ends_group: true
+    compact_alignment: true
+    disable: true
+    fixable: true
+    phase: 5
+  after_003:
+    disable: true
+    fixable: true
+    phase: 1
+  architecture_001:
+    disable: false
+    fixable: true
+    phase: 4
+  architecture_002:
+    disable: false
+    fixable: true
+    phase: 2
+  architecture_003:
+    disable: false
+    fixable: true
+    phase: 3
+  architecture_004:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  architecture_005:
+    disable: false
+    fixable: true
+    phase: 1
+  architecture_006:
+    disable: false
+    fixable: true
+    phase: 1
+  architecture_007:
+    disable: false
+    fixable: true
+    phase: 4
+  architecture_008:
+    disable: false
+    fixable: true
+    phase: 4
+  architecture_009:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  architecture_010:
+    disable: false
+    fixable: true
+    phase: 1
+  architecture_011:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  architecture_012:
+    disable: false
+    fixable: true
+    phase: 2
+    spaces: 1
+  architecture_013:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  architecture_014:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  architecture_015:
+    disable: false
+    fixable: true
+    phase: 3
+  architecture_016:
+    disable: false
+    fixable: true
+    phase: 3
+  architecture_017:
+    disable: false
+    fixable: true
+    phase: 3
+  architecture_018:
+    disable: false
+    fixable: true
+    phase: 3
+  architecture_019:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  architecture_020:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  architecture_021:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  architecture_022:
+    disable: false
+    fixable: true
+    phase: 2
+  architecture_024:
+    disable: false
+    fixable: true
+    phase: 1
+  architecture_025:
+    disable: true
+    fixable: false
+    names: []
+    phase: 7
+  architecture_026:
+    blank_line_ends_group: true
+    comment_line_ends_group: true
+    compact_alignment: true
+    disable: false
+    fixable: true
+    phase: 5
+  architecture_027:
+    blank_line_ends_group: true
+    comment_line_ends_group: true
+    compact_alignment: true
+    disable: false
+    fixable: true
+    phase: 5
+  architecture_028:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  architecture_029:
+    blank_line_ends_group: true
+    comment_line_ends_group: true
+    disable: false
+    fixable: true
+    phase: 5
+  assert_001:
+    disable: false
+    fixable: true
+    phase: 4
+  attribute_001:
+    disable: false
+    fixable: true
+    phase: 4
+  attribute_002:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  case_001:
+    disable: false
+    fixable: true
+    phase: 4
+  case_002:
+    disable: false
+    fixable: true
+    phase: 2
+    spaces: 1
+  case_003:
+    disable: false
+    fixable: true
+    phase: 2
+  case_004:
+    disable: false
+    fixable: true
+    phase: 2
+    spaces: 1
+  case_005:
+    disable: false
+    fixable: true
+    phase: 2
+  case_006:
+    disable: false
+    fixable: true
+    phase: 2
+    spaces: 1
+  case_007:
+    disable: false
+    fixable: true
+    phase: 3
+  case_008:
+    disable: false
+    fixable: true
+    phase: 3
+  case_009:
+    disable: false
+    fixable: true
+    phase: 3
+  case_010:
+    disable: false
+    fixable: true
+    phase: 3
+  case_011:
+    disable: false
+    fixable: true
+    phase: 5
+  case_012:
+    disable: false
+    fixable: true
+    phase: 1
+  case_013:
+    disable: false
+    fixable: true
+    phase: 4
+  case_014:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  case_015:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  case_016:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  case_017:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  case_018:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  case_019:
+    disable: false
+    fixable: true
+    phase: 1
+  case_020:
+    disable: false
+    fixable: true
+    phase: 1
+  case_021:
+    disable: false
+    fixable: true
+    phase: 4
+  comment_004:
+    disable: false
+    fixable: true
+    phase: 2
+  comment_010:
+    disable: false
+    fixable: true
+    phase: 4
+  component_001:
+    disable: false
+    fixable: true
+    phase: 4
+  component_002:
+    disable: false
+    fixable: true
+    phase: 2
+    spaces: 1
+  component_003:
+    disable: false
+    fixable: true
+    phase: 3
+  component_004:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  component_005:
+    disable: false
+    fixable: true
+    phase: 1
+  component_006:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  component_007:
+    disable: false
+    fixable: true
+    phase: 2
+  component_008:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  component_009:
+    disable: false
+    fixable: true
+    phase: 4
+  component_010:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  component_011:
+    disable: false
+    fixable: true
+    phase: 2
+    spaces: 1
+  component_012:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  component_013:
+    disable: false
+    fixable: true
+    phase: 2
+  component_014:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  component_016:
+    disable: false
+    fixable: true
+    phase: 3
+  component_017:
+    blank_line_ends_group: true
+    comment_line_ends_group: true
+    compact_alignment: true
+    disable: false
+    fixable: true
+    phase: 5
+    separate_generic_port_alignment: true
+  component_018:
+    disable: false
+    fixable: true
+    phase: 3
+  component_019:
+    disable: false
+    fixable: true
+    phase: 1
+  component_020:
+    blank_line_ends_group: true
+    comment_line_ends_group: true
+    compact_alignment: true
+    disable: false
+    fixable: true
+    phase: 6
+    separate_generic_port_alignment: true
+  concurrent_001:
+    disable: false
+    fixable: true
+    phase: 4
+  concurrent_002:
+    disable: false
+    fixable: true
+    phase: 2
+  concurrent_003:
+    disable: false
+    fixable: true
+    phase: 6
+  concurrent_004:
+    disable: false
+    fixable: true
+    phase: 2
+  concurrent_005:
+    disable: false
+    fixable: true
+    phase: 1
+  concurrent_006:
+    blank_line_ends_group: true
+    comment_line_ends_group: true
+    compact_alignment: true
+    disable: false
+    fixable: true
+    phase: 5
+  concurrent_007:
+    allow_single_line: false
+    disable: false
+    fixable: true
+    phase: 1
+  concurrent_008:
+    blank_line_ends_group: true
+    comment_line_ends_group: true
+    compact_alignment: true
+    disable: false
+    fixable: true
+    phase: 5
+  constant_001:
+    disable: false
+    fixable: true
+    phase: 4
+  constant_002:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  constant_004:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  constant_005:
+    disable: false
+    fixable: true
+    phase: 2
+  constant_006:
+    disable: false
+    fixable: true
+    phase: 2
+  constant_007:
+    disable: false
+    fixable: false
+    phase: 1
+  constant_010:
+    disable: false
+    fixable: true
+    phase: 2
+  constant_011:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  constant_012:
+    disable: false
+    fixable: true
+    phase: 4
+  constant_013:
+    disable: false
+    fixable: true
+    phase: 6
+  constant_014:
+    disable: false
+    fixable: true
+    phase: 5
+  constant_015:
+    disable: true
+    fixable: false
+    phase: 7
+    prefixes:
+    - c_
+  entity_001:
+    disable: false
+    fixable: true
+    phase: 4
+  entity_002:
+    disable: false
+    fixable: true
+    phase: 2
+    spaces: 1
+  entity_003:
+    disable: false
+    fixable: true
+    phase: 3
+  entity_004:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  entity_005:
+    disable: false
+    fixable: true
+    phase: 1
+  entity_006:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  entity_007:
+    disable: false
+    fixable: true
+    phase: 2
+  entity_008:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  entity_009:
+    disable: false
+    fixable: true
+    phase: 4
+  entity_010:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  entity_011:
+    disable: false
+    fixable: true
+    phase: 2
+    spaces: 1
+  entity_012:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  entity_013:
+    disable: false
+    fixable: true
+    phase: 2
+    spaces: 1
+  entity_014:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  entity_015:
+    disable: false
+    fixable: true
+    phase: 1
+  entity_016:
+    disable: false
+    fixable: true
+    phase: 3
+  entity_017:
+    blank_line_ends_group: true
+    comment_line_ends_group: true
+    compact_alignment: true
+    disable: false
+    fixable: true
+    phase: 5
+    separate_generic_port_alignment: true
+  entity_018:
+    blank_line_ends_group: true
+    comment_line_ends_group: true
+    compact_alignment: true
+    disable: false
+    fixable: true
+    phase: 5
+    separate_generic_port_alignment: true
+  entity_019:
+    disable: false
+    fixable: true
+    phase: 1
+  entity_020:
+    blank_line_ends_group: true
+    comment_line_ends_group: true
+    compact_alignment: true
+    disable: false
+    fixable: true
+    phase: 6
+    separate_generic_port_alignment: true
+  file_001:
+    disable: false
+    fixable: true
+    phase: 4
+  file_002:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  for_loop_001:
+    disable: false
+    fixable: true
+    phase: 4
+  for_loop_002:
+    disable: false
+    fixable: true
+    phase: 4
+  for_loop_003:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  for_loop_004:
+    disable: false
+    fixable: true
+    phase: 2
+  for_loop_005:
+    disable: false
+    fixable: true
+    phase: 2
+  function_001:
+    disable: false
+    fixable: true
+    phase: 4
+  function_002:
+    disable: false
+    fixable: true
+    phase: 2
+    spaces: 1
+  function_003:
+    disable: false
+    fixable: true
+    phase: 2
+  function_004:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  function_005:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  function_006:
+    disable: false
+    fixable: true
+    phase: 3
+  function_007:
+    disable: false
+    fixable: true
+    phase: 3
+  function_008:
+    disable: false
+    fixable: true
+    phase: 4
+  function_009:
+    disable: false
+    fixable: true
+    phase: 1
+  function_010:
+    disable: false
+    fixable: true
+    phase: 6
+  function_012:
+    blank_line_ends_group: true
+    comment_line_ends_group: true
+    compact_alignment: true
+    disable: false
+    fixable: true
+    phase: 5
+  function_013:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  function_014:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  function_015:
+    blank_line_ends_group: true
+    comment_line_ends_group: true
+    disable: false
+    fixable: true
+    phase: 5
+  generate_001:
+    disable: false
+    fixable: true
+    phase: 4
+  generate_002:
+    disable: false
+    fixable: true
+    phase: 2
+  generate_003:
+    disable: false
+    fixable: true
+    phase: 3
+  generate_004:
+    disable: false
+    fixable: true
+    phase: 3
+  generate_005:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  generate_006:
+    disable: false
+    fixable: true
+    phase: 4
+  generate_007:
+    disable: false
+    fixable: true
+    phase: 4
+  generate_008:
+    disable: false
+    fixable: true
+    phase: 2
+    spaces: 1
+  generate_009:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  generate_010:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  generate_011:
+    disable: false
+    fixable: true
+    phase: 1
+  generate_012:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  generate_013:
+    disable: false
+    fixable: true
+    phase: 2
+    spaces: 1
+  generate_014:
+    disable: false
+    fixable: true
+    phase: 2
+  generate_015:
+    disable: false
+    fixable: false
+    phase: 1
+  generate_016:
+    disable: false
+    fixable: true
+    phase: 4
+  generate_017:
+    disable: true
+    fixable: false
+    phase: 7
+    prefixes:
+    - gen_
+  generic_001:
+    disable: false
+    fixable: true
+    phase: 3
+  generic_002:
+    disable: false
+    fixable: true
+    phase: 4
+  generic_003:
+    disable: false
+    fixable: true
+    phase: 2
+    spaces: 1
+  generic_004:
+    disable: false
+    fixable: true
+    phase: 4
+  generic_005:
+    disable: false
+    fixable: true
+    phase: 2
+  generic_006:
+    disable: false
+    fixable: true
+    phase: 2
+  generic_007:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  generic_008:
+    disable: false
+    fixable: true
+    phase: 4
+  generic_009:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  generic_010:
+    disable: false
+    fixable: true
+    phase: 1
+  generic_013:
+    disable: false
+    fixable: true
+    phase: 1
+  generic_014:
+    disable: false
+    fixable: true
+    phase: 2
+  generic_016:
+    disable: false
+    fixable: true
+    phase: 1
+  generic_017:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  generic_018:
+    disable: false
+    fixable: true
+    phase: 2
+  generic_019:
+    disable: false
+    fixable: true
+    phase: 3
+  generic_020:
+    disable: true
+    fixable: false
+    phase: 7
+    prefixes:
+    - g_
+  if_001:
+    disable: false
+    fixable: true
+    phase: 4
+  if_002:
+    disable: false
+    fixable: true
+    phase: 1
+  if_003:
+    disable: false
+    fixable: true
+    phase: 2
+    spaces: 1
+  if_004:
+    disable: false
+    fixable: true
+    phase: 2
+  if_005:
+    disable: false
+    fixable: true
+    phase: 2
+    spaces: 1
+  if_006:
+    disable: false
+    fixable: true
+    phase: 3
+  if_007:
+    disable: false
+    fixable: true
+    phase: 3
+  if_008:
+    disable: false
+    fixable: true
+    phase: 3
+  if_009:
+    disable: false
+    fixable: true
+    phase: 5
+  if_010:
+    disable: false
+    fixable: true
+    phase: 3
+  if_011:
+    disable: false
+    fixable: true
+    phase: 3
+  if_012:
+    disable: false
+    fixable: true
+    phase: 4
+  if_013:
+    disable: false
+    fixable: true
+    phase: 4
+  if_014:
+    disable: false
+    fixable: true
+    phase: 4
+  if_015:
+    disable: false
+    fixable: true
+    phase: 2
+  if_020:
+    disable: false
+    fixable: true
+    phase: 1
+  if_021:
+    disable: false
+    fixable: true
+    phase: 1
+  if_022:
+    disable: false
+    fixable: true
+    phase: 1
+  if_023:
+    disable: false
+    fixable: true
+    phase: 1
+  if_024:
+    disable: false
+    fixable: true
+    phase: 1
+  if_025:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  if_026:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  if_027:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  if_028:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  if_029:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  if_030:
+    disable: false
+    fixable: true
+    phase: 3
+  if_031:
+    disable: false
+    fixable: true
+    phase: 3
+  if_032:
+    disable: false
+    fixable: true
+    phase: 4
+  if_033:
+    disable: false
+    fixable: true
+    phase: 4
+  if_034:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  instantiation_001:
+    disable: false
+    fixable: true
+    phase: 4
+  instantiation_002:
+    disable: false
+    fixable: true
+    phase: 2
+  instantiation_003:
+    disable: false
+    fixable: true
+    phase: 2
+  instantiation_004:
+    disable: false
+    fixable: true
+    phase: 3
+  instantiation_005:
+    disable: false
+    fixable: true
+    phase: 1
+  instantiation_006:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  instantiation_007:
+    disable: false
+    fixable: true
+    phase: 1
+  instantiation_008:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  instantiation_009:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  instantiation_010:
+    blank_line_ends_group: true
+    comment_line_ends_group: true
+    compact_alignment: true
+    disable: false
+    fixable: true
+    phase: 5
+    separate_generic_port_alignment: true
+  instantiation_011:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  instantiation_012:
+    disable: false
+    fixable: true
+    phase: 1
+  instantiation_013:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  instantiation_014:
+    disable: false
+    fixable: true
+    phase: 1
+  instantiation_016:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  instantiation_017:
+    disable: false
+    fixable: true
+    phase: 1
+  instantiation_018:
+    disable: false
+    fixable: true
+    phase: 2
+  instantiation_019:
+    disable: false
+    fixable: true
+    phase: 3
+  instantiation_020:
+    disable: false
+    fixable: true
+    phase: 1
+  instantiation_021:
+    disable: false
+    fixable: true
+    phase: 1
+  instantiation_022:
+    disable: false
+    fixable: true
+    phase: 2
+  instantiation_023:
+    disable: false
+    fixable: true
+    phase: 1
+  instantiation_024:
+    disable: false
+    fixable: false
+    phase: 1
+  instantiation_025:
+    disable: false
+    fixable: true
+    phase: 2
+  instantiation_026:
+    disable: false
+    fixable: true
+    phase: 2
+  instantiation_027:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  instantiation_028:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  instantiation_029:
+    blank_line_ends_group: true
+    comment_line_ends_group: true
+    compact_alignment: true
+    disable: false
+    fixable: true
+    phase: 5
+    separate_generic_port_alignment: true
+  instantiation_030:
+    disable: false
+    fixable: true
+    phase: 2
+  instantiation_031:
+    case: lower
+    disable: true
+    fixable: true
+    phase: 6
+  instantiation_032:
+    disable: true
+    fixable: true
+    phase: 2
+  instantiation_033:
+    disable: false
+    fixable: true
+    phase: 1
+  length_001:
+    disable: false
+    fixable: false
+    length: 120
+    phase: 7
+  library_001:
+    disable: false
+    fixable: true
+    phase: 4
+  library_002:
+    disable: false
+    fixable: true
+    phase: 2
+    spaces: 1
+  library_003:
+    disable: false
+    fixable: true
+    phase: 3
+  library_004:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  library_005:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  library_006:
+    disable: false
+    fixable: true
+    phase: 2
+    spaces: 1
+  library_007:
+    disable: false
+    fixable: true
+    phase: 3
+  library_008:
+    disable: false
+    fixable: true
+    indentSize: 0
+    phase: 4
+  library_009:
+    disable: false
+    fixable: true
+    phase: 4
+  package_001:
+    disable: false
+    fixable: true
+    phase: 4
+  package_002:
+    disable: false
+    fixable: true
+    phase: 2
+  package_003:
+    disable: false
+    fixable: true
+    phase: 3
+  package_004:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  package_005:
+    disable: false
+    fixable: true
+    phase: 1
+  package_006:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  package_007:
+    disable: false
+    fixable: true
+    phase: 1
+  package_008:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  package_009:
+    disable: false
+    fixable: true
+    phase: 2
+  package_010:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  package_011:
+    disable: false
+    fixable: true
+    phase: 3
+  package_012:
+    disable: false
+    fixable: true
+    phase: 3
+  package_013:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  package_014:
+    disable: false
+    fixable: false
+    phase: 1
+  package_015:
+    disable: false
+    fixable: true
+    phase: 4
+  package_016:
+    disable: true
+    fixable: false
+    phase: 7
+    suffixes:
+    - _pkg
+  package_017:
+    disable: true
+    fixable: false
+    phase: 7
+    prefixes:
+    - pkg_
+  package_018:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  package_019:
+    blank_line_ends_group: true
+    comment_line_ends_group: true
+    disable: false
+    fixable: true
+    phase: 5
+  port_001:
+    disable: false
+    fixable: true
+    phase: 3
+  port_002:
+    disable: false
+    fixable: true
+    phase: 4
+  port_003:
+    disable: false
+    fixable: true
+    phase: 2
+  port_004:
+    disable: false
+    fixable: true
+    phase: 4
+  port_005:
+    disable: false
+    fixable: true
+    phase: 2
+  port_006:
+    disable: false
+    fixable: true
+    phase: 2
+  port_007:
+    disable: false
+    fixable: true
+    phase: 2
+  port_008:
+    disable: false
+    fixable: true
+    phase: 2
+  port_009:
+    disable: false
+    fixable: true
+    phase: 2
+  port_010:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  port_011:
+    disable: true
+    fixable: false
+    phase: 7
+    prefixes:
+    - i_
+    - o_
+    - io_
+  port_012:
+    disable: false
+    fixable: false
+    phase: 1
+  port_013:
+    disable: false
+    fixable: true
+    phase: 1
+  port_014:
+    disable: false
+    fixable: true
+    phase: 1
+  port_015:
+    disable: false
+    fixable: true
+    phase: 4
+  port_016:
+    disable: false
+    fixable: true
+    phase: 1
+  port_017:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  port_018:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  port_019:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  port_020:
+    disable: false
+    fixable: true
+    phase: 2
+  port_021:
+    disable: false
+    fixable: true
+    phase: 2
+  port_022:
+    disable: false
+    fixable: true
+    phase: 3
+  port_023:
+    disable: false
+    fixable: false
+    phase: 1
+  port_024:
+    disable: false
+    fixable: true
+    phase: 3
+  port_025:
+    disable: true
+    fixable: false
+    phase: 7
+    suffixes:
+    - _i
+    - _o
+    - _io
+  procedure_001:
+    disable: false
+    fixable: true
+    phase: 4
+  procedure_002:
+    disable: false
+    fixable: true
+    phase: 4
+  procedure_003:
+    disable: false
+    fixable: true
+    phase: 4
+  procedure_004:
+    disable: false
+    fixable: true
+    phase: 4
+  procedure_005:
+    disable: false
+    fixable: true
+    phase: 4
+  procedure_006:
+    disable: false
+    fixable: true
+    phase: 4
+  procedure_007:
+    disable: false
+    fixable: true
+    phase: 6
+  procedure_008:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  procedure_009:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  procedure_010:
+    blank_line_ends_group: true
+    comment_line_ends_group: true
+    disable: false
+    fixable: true
+    phase: 5
+  process_001:
+    disable: false
+    fixable: true
+    phase: 4
+  process_002:
+    disable: false
+    fixable: true
+    phase: 2
+  process_003:
+    disable: false
+    fixable: true
+    phase: 4
+  process_004:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  process_005:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  process_006:
+    disable: false
+    fixable: true
+    phase: 4
+  process_007:
+    disable: false
+    fixable: true
+    phase: 2
+    spaces: 1
+  process_008:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  process_009:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  process_010:
+    disable: false
+    fixable: true
+    phase: 1
+  process_011:
+    disable: false
+    fixable: true
+    phase: 3
+  process_012:
+    disable: false
+    fixable: true
+    phase: 1
+  process_013:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  process_014:
+    disable: false
+    fixable: true
+    phase: 2
+  process_015:
+    disable: false
+    fixable: true
+    phase: 3
+  process_016:
+    disable: false
+    fixable: false
+    phase: 1
+  process_017:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  process_018:
+    disable: false
+    fixable: true
+    phase: 1
+  process_019:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  process_020:
+    disable: false
+    fixable: true
+    phase: 5
+  process_021:
+    disable: false
+    fixable: true
+    phase: 3
+  process_022:
+    disable: false
+    fixable: true
+    phase: 3
+  process_023:
+    disable: false
+    fixable: true
+    phase: 3
+  process_024:
+    disable: false
+    fixable: true
+    phase: 2
+  process_025:
+    disable: false
+    fixable: true
+    phase: 2
+  process_026:
+    disable: false
+    fixable: true
+    phase: 3
+  process_027:
+    disable: false
+    fixable: true
+    phase: 3
+  process_028:
+    disable: false
+    fixable: true
+    phase: 5
+  process_029:
+    clock: event
+    disable: false
+    fixable: true
+    phase: 1
+  process_030:
+    disable: false
+    fixable: false
+    phase: 1
+  process_031:
+    disable: false
+    fixable: true
+    phase: 5
+  process_032:
+    disable: false
+    fixable: true
+    phase: 1
+  process_033:
+    blank_line_ends_group: true
+    comment_line_ends_group: true
+    compact_alignment: true
+    disable: false
+    fixable: true
+    phase: 5
+  process_034:
+    blank_line_ends_group: true
+    comment_line_ends_group: true
+    compact_alignment: true
+    disable: false
+    fixable: true
+    phase: 6
+  process_035:
+    blank_line_ends_group: true
+    comment_line_ends_group: true
+    compact_alignment: true
+    disable: false
+    fixable: true
+    phase: 6
+  process_036:
+    disable: true
+    fixable: false
+    phase: 7
+    prefixes:
+    - proc_
+  process_037:
+    blank_line_ends_group: true
+    comment_line_ends_group: true
+    disable: false
+    fixable: true
+    phase: 5
+  range_001:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  range_002:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  semicolon_001:
+    disable: false
+    fixable: true
+    phase: 1
+  sequential_001:
+    disable: false
+    fixable: true
+    phase: 4
+  sequential_002:
+    disable: false
+    fixable: true
+    phase: 2
+  sequential_003:
+    disable: false
+    fixable: true
+    phase: 2
+  sequential_004:
+    disable: false
+    fixable: true
+    phase: 5
+  sequential_005:
+    blank_line_ends_group: true
+    case_control_statements_end_group: true
+    comment_line_ends_group: true
+    compact_alignment: true
+    disable: false
+    fixable: true
+    if_control_statements_end_group: true
+    phase: 5
+  sequential_006:
+    disable: false
+    fixable: true
+    phase: 1
+  signal_001:
+    disable: false
+    fixable: true
+    phase: 4
+  signal_002:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  signal_004:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  signal_005:
+    disable: false
+    fixable: true
+    phase: 2
+  signal_006:
+    disable: false
+    fixable: true
+    phase: 2
+  signal_007:
+    disable: false
+    fixable: false
+    phase: 1
+  signal_008:
+    disable: true
+    fixable: false
+    phase: 7
+    prefixes:
+    - s_
+  signal_010:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  signal_011:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  signal_012:
+    disable: false
+    fixable: true
+    phase: 5
+  signal_014:
+    disable: false
+    fixable: true
+    phase: 6
+  signal_015:
+    consecutive: 2
+    disable: false
+    fixable: true
+    phase: 1
+  signal_016:
+    disable: false
+    fixable: true
+    phase: 1
+  source_file_001:
+    disable: false
+    fixable: false
+    phase: 1
+  subtype_001:
+    disable: false
+    fixable: true
+    phase: 4
+  subtype_002:
+    disable: false
+    fixable: true
+    phase: 6
+  subtype_004:
+    disable: true
+    fixable: false
+    phase: 7
+    prefixes:
+    - st_
+  type_001:
+    disable: false
+    fixable: true
+    phase: 4
+  type_002:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  type_004:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  type_005:
+    disable: false
+    fixable: true
+    phase: 4
+  type_006:
+    disable: false
+    fixable: true
+    phase: 2
+  type_007:
+    disable: false
+    fixable: true
+    phase: 2
+    spaces: 1
+  type_008:
+    disable: false
+    fixable: true
+    phase: 1
+  type_009:
+    disable: false
+    fixable: true
+    phase: 1
+  type_010:
+    disable: false
+    fixable: true
+    phase: 3
+  type_011:
+    disable: false
+    fixable: true
+    phase: 3
+  type_012:
+    disable: false
+    fixable: true
+    phase: 4
+  type_013:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  type_014:
+    disable: false
+    fixable: true
+    phase: 6
+  type_015:
+    disable: true
+    fixable: false
+    phase: 7
+    prefixes:
+    - t_
+  variable_001:
+    disable: false
+    fixable: true
+    phase: 4
+  variable_002:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  variable_004:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  variable_005:
+    disable: false
+    fixable: true
+    phase: 2
+  variable_006:
+    disable: false
+    fixable: true
+    phase: 2
+  variable_007:
+    disable: false
+    fixable: false
+    phase: 1
+  variable_010:
+    case: lower
+    disable: false
+    fixable: true
+    phase: 6
+  variable_011:
+    disable: false
+    fixable: true
+    phase: 6
+  variable_012:
+    disable: true
+    fixable: false
+    phase: 7
+    prefixes:
+    - v_
+  variable_assignment_001:
+    disable: false
+    fixable: true
+    phase: 4
+  variable_assignment_002:
+    disable: false
+    fixable: true
+    phase: 2
+  variable_assignment_003:
+    disable: false
+    fixable: true
+    phase: 2
+  variable_assignment_004:
+    disable: false
+    fixable: true
+    phase: 5
+  variable_assignment_005:
+    blank_line_ends_group: true
+    comment_line_ends_group: true
+    compact_alignment: true
+    disable: false
+    fixable: true
+    if_control_statements_end_group: true
+    phase: 5
+  variable_assignment_006:
+    disable: false
+    fixable: false
+    phase: 1
+  wait_001:
+    disable: false
+    fixable: true
+    phase: 4
+  while_loop_001:
+    disable: false
+    fixable: true
+    phase: 4
+  while_loop_002:
+    disable: false
+    fixable: true
+    phase: 4
+  whitespace_001:
+    disable: false
+    fixable: true
+    phase: 2
+  whitespace_002:
+    disable: false
+    fixable: true
+    phase: 0
+  whitespace_003:
+    disable: false
+    fixable: true
+    phase: 2
+  whitespace_004:
+    disable: false
+    fixable: true
+    phase: 2
+  whitespace_005:
+    disable: false
+    fixable: true
+    phase: 2
+  whitespace_006:
+    disable: false
+    fixable: true
+    phase: 2
+  whitespace_007:
+    disable: false
+    fixable: true
+    phase: 2
+  whitespace_008:
+    disable: false
+    fixable: true
+    phase: 2
+  whitespace_010:
+    disable: false
+    fixable: true
+    phase: 2
+  whitespace_011:
+    disable: false
+    fixable: true
+    phase: 2
+  whitespace_012:
+    disable: false
+    fixable: true
+    phase: 3
+  whitespace_013:
+    disable: false
+    fixable: true
+    phase: 2
